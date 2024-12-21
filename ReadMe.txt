@@ -7,3 +7,10 @@
 声明：此版本，只是小工具库的原始版本。以后的代码没有开源。
 受众：
    想学习Win32 界面开发的windows 同行。对于初学者来说还是有那么一丢丢帮助。
+图片展示：
+Explore 经典 List 和 Tree
+   ![Image text](MarkDown/Explorer.PNG)
+同步窗口
+   ![Image text](MarkDown/ProcessBar.PNG)
+Tree表
+ ![Image text](MarkDown/TreeTable.PNG)
