@@ -1,62 +1,9 @@
-========================================================================
-    WIN32 APPLICATION : AWin32Frame Project Overview
-========================================================================
-
-AppWizard has created this AWin32Frame application for you.
-
-This file contains a summary of what you will find in each of the files that
-make up your AWin32Frame application.
-
-
-AWin32Frame.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-AWin32Frame.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-AWin32Frame.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-AppWizard has created the following resources:
-
-AWin32Frame.rc
-    This is a listing of all of the Microsoft Windows resources that the
-    program uses.  It includes the icons, bitmaps, and cursors that are stored
-    in the RES subdirectory.  This file can be directly edited in Microsoft
-    Visual C++.
-
-Resource.h
-    This is the standard header file, which defines new resource IDs.
-    Microsoft Visual C++ reads and updates this file.
-
-AWin32Frame.ico
-    This is an icon file, which is used as the application's icon (32x32).
-    This icon is included by the main resource file AWin32Frame.rc.
-
-small.ico
-    This is an icon file, which contains a smaller version (16x16)
-    of the application's icon. This icon is included by the main resource
-    file AWin32Frame.rc.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named AWin32Frame.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+一个 简单封装win32的工具库。
+特点：
+   处理事件用的回调形式，和C++静态成员函数结合起来使用更方便(思路借鉴于QT)
+   界面以C++类为单位争取一个控件或简单的界面用一个C++类来实现，流程清晰。这样加快工具界面的开发速度。便于快速完成
+实例：
+   KasR3hookTool的界面就是模仿的Process Monitor的界面(system internal)。利用此库做的。
+声明：此版本，只是小工具库的原始版本。以后的代码没有开源。
+受众：
+   想学习Win32 界面开发的windows 同行。对于初学者来说还是有那么一丢丢帮助。
